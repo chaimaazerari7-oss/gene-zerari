@@ -10,7 +10,7 @@ JOMOEA MOUBARAKA
 # Benallal wafaa
 # SNOUCI HANANE KHADIDJA 
 # Dib djazia
-#projet of tp :
+#projet of tp : zerari chaimaa et benali riham et benallal wafaa et snouci hanane et dib djazia 
 
 print("Hello World")
 
