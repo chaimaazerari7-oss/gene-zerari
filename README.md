@@ -61,7 +61,7 @@ plt.bar(df["Séquence"], df["Pourcentage GC"], color='skyblue')
 plt.xlabel("Séquences")
 plt.ylabel("Pourcentage GC")
 plt.title("Pourcentage de GC par séquence")
-# plt.show()  # Ligne commentée pour éviter l’affichage dans certaines plateformes
+# plt.show()  
 # 3) Filtrer les séquences dont la longueur est supérieure à 10
 print("\n3) Filtrage : séquences avec longueur > 10")
 filtered_long = df[df["Longueur"] > 10]
@@ -100,11 +100,18 @@ print(df)
 print("\n**** Statistiques descriptives ****")
 ecart_type_gc = df["Pourcentage GC"].std()
 ecart_type_longueur = df["Longueur"].std()
+.# Sauvegarder le tableau final dans un fichier CSV
+df.to_csv("tableau_sequencies_final.csv", index=False)
+print("\nLe tableau final a été sauvegardé dans 'tableau_sequencies_final.csv'
 
 print(f"Écart-type du %GC : {ecart_type_gc:.3f}")
-print(f"Écart-type de la longueur : {ecart_type_longueur:.3f}")
+print(f"Écart-type de la longueur : {ecart_type_longueur:.3f}").# Sauvegarder le tableau final dans un fichier CSV
+df.to_csv("tableau_sequencies_final.csv", index=False)
+print("\nLe tableau final a été sauvegardé dans 'tableau_sequencies_final.csv'")
 
-# Sauvegarde CSV
+
+
+# 8) Sauvegarde CSV
 df.to_csv("tableau_sequences_final.csv", index=False)
 print("\nLe tableau final a été sauvegardé dans 'tableau_sequences_final.csv'")
 
