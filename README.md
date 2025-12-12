@@ -62,3 +62,15 @@ plt.xlabel("Séquences")
 plt.ylabel("Pourcentage GC")
 plt.title("Pourcentage de GC par séquence")
 # plt.show()  # Ligne commentée pour éviter l’affichage dans certaines plateformes
+# 3) Filtrer les séquences dont la longueur est supérieure à 10
+print("\n3) Filtrage : séquences avec longueur > 10")
+filtered_long = df[df["Longueur"] > 10]
+print(filtered_long)
+
+
+
+# 4) Calculer le pourcentage moyen de GC avec 3 chiffres après la virgule
+print("\n**************** Calcul de la moyenne **************")
+average_gc = df["Pourcentage GC"].mean()
+print(f"Pourcentage moyen de GC : {average_gc:.3f}%")
+
