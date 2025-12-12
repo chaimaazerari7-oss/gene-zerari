@@ -74,3 +74,25 @@ print("\n**************** Calcul de la moyenne **************")
 average_gc = df["Pourcentage GC"].mean()
 print(f"Pourcentage moyen de GC : {average_gc:.3f}%")
 
+# 5) Ajouter une colonne "Catégorie GC"
+print("\n**** Ajout de colonnes ****")
+
+def categorise_gc(pct):
+    if pct > 55:
+        return "Riche"
+    elif 45 <= pct <= 55:
+        return "Moyen"
+    else:
+        return "Faible"
+
+df["Catégorie GC"] = df["Pourcentage GC"].apply(categorise_gc)
+
+# Ajouter une colonne "Catégorie Longueur"
+df["Catégorie Longueur"] = df["Longueur"].apply(lambda x: "Longue" if x > 10 else "Courte")
+
+print(df)
+
+# 6) Ajouter une colonne : nombre de G dans chaque séquence
+print("\n===== Nombre de G ajoutés =====")
+df["Nombre de G"] = df["Séquence"].str.count("G")
+print(df)
