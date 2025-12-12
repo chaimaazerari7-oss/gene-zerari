@@ -96,3 +96,18 @@ print(df)
 print("\n===== Nombre de G ajoutés =====")
 df["Nombre de G"] = df["Séquence"].str.count("G")
 print(df)
+# 7) Calculer l'écart-type du %GC et de la longueur
+print("\n**** Statistiques descriptives ****")
+ecart_type_gc = df["Pourcentage GC"].std()
+ecart_type_longueur = df["Longueur"].std()
+
+print(f"Écart-type du %GC : {ecart_type_gc:.3f}")
+print(f"Écart-type de la longueur : {ecart_type_longueur:.3f}")
+
+# Sauvegarde CSV
+df.to_csv("tableau_sequences_final.csv", index=False)
+print("\nLe tableau final a été sauvegardé dans 'tableau_sequences_final.csv'")
+
+# Affichage final complet
+print("\n**** Tableau final complet ****")
+print(df)
