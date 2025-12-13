@@ -1,4 +1,4 @@
-# Nom du chef de projet zirari chaima, Master1,
+# Nom du chef de projet zerari chaima, Master1,
 # Liste des membres de l'équipe
 # Benali Riham
 # Benallal Wafaa
