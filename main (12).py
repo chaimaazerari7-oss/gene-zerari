@@ -2,7 +2,7 @@
 # Liste des membres de l'équipe
 # Zerari Chaimaa 6 et 7
 # Benali Riham 1 et 2
-# Benallal Wafaa 5
+# Benallal Wafaa partie 5
 # Dib Djazia  8
 # Snouci Hanane 3 et 4
 
