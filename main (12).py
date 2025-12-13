@@ -1,10 +1,10 @@
-# Nom du chef de projet zerari chaima, Master1,
+# Nom du chef de projet zerari chaimaa, Master1,
 # Liste des membres de l'équipe
-# Zirari Chaima qst 6 et 7
-# Benali Riham qst 1 et 2
-# Benallal Wafaa qst 5
-# Dib Djazia qst 8  
-# Snouci Hanane qst 3 et 4
+# Zerari Chaimaa 
+# Benali Riham 
+# Benallal Wafaa 
+# Dib Djazia  
+# Snouci Hanane 
 
 
 import pandas as pd
