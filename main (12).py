@@ -1,10 +1,10 @@
 # Nom du chef de projet zerari chaimaa, Master1,
 # Liste des membres de l'équipe
-# Zerari Chaimaa 
-# Benali Riham 
-# Benallal Wafaa 
-# Dib Djazia  
-# Snouci Hanane 
+# Zerari Chaimaa 6 et 7
+# Benali Riham 1 et 2
+# Benallal Wafaa 5
+# Dib Djazia  8
+# Snouci Hanane 3 et 4
 
 
 import pandas as pd
