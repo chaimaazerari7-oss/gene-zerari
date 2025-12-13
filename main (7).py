@@ -1,6 +1,6 @@
-# Nom du chef de projet zerari chaima, Master1,
+# Nom du chef de projet zerari chaimaa, Master1,
 # Liste des membres de l'équipe
-# Zerari chaima 6 et 7
+# Zerari chaimaa 6 et 7
 # Benali Riham partie 1et 2
 # Benallal Wafaa partie 5 
 # Dib Djazia  partie 8 
